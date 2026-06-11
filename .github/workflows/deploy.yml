@@ -17,7 +17,7 @@ env:
   WORKING_DIR: 'terraform/env/dev'
   TF_VARS_FILE: 'terraform.tfvars'
   BACKEND_RG: 'rg-terraform-mgmt'
-  BACKEND_SA: 'stterraformstate001'
+  BACKEND_SA: 'stgithubaction1712'
   BACKEND_CONTAINER: 'tfstate'
   BACKEND_KEY: 'dev.terraform.tfstate'
   ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
